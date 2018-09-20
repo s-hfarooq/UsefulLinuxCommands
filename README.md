@@ -12,7 +12,10 @@ Basic list of commands to compile and run files on Linux for various languages
 
 ### Pull to new
 `git init`
-
+`git add .`
+`git commit -m "comment"`
+`git remote add origin LINK_TO_REPO`
+`git push origin master`
 
 ## C/C++
 Compile: `gcc -o program yourcode.c'
