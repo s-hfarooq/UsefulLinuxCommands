@@ -35,3 +35,6 @@ Run: `java -cp . yourcode`
 
 ## Python
 Compile/run: `python yourcode.py`
+
+##youtube-dl
+youtube-dl --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" <playlist-url> --ignore-errors
